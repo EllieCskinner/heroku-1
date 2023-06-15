@@ -1,0 +1,11 @@
+{
+    "name": "heroku-express",
+    "version": "1.0.0",
+    "description": "A simple Express.js web server",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
