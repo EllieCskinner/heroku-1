@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A simple Express.js web server",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "ejs": "^3.1.9",
+        "express": "^4.17.1"
     }
-  }
+}

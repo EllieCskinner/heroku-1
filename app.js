@@ -44,7 +44,7 @@ function getWeather(req, res, next){
 app.get("/", getWeather, (req, res)=>{  //we're gonna need to set up a new route in express calles /result
     res.send(`
     <h1>Guess my favorite color :) </h1>
-    <form action ="/result" method = "POST"> 
+    <form action ="/result" method = "POST">
         <input type="text" name="color">
         <button>Submit Answer</buton>
     </form>
